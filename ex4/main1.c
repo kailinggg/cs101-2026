@@ -42,14 +42,14 @@ int main() {
     for (int i = 0; i < 3; i++) {
         printf("%d ", r_a[i]);
     }
-    printf("\n\n");
+    printf("\n");
 
    
-    printf("%s\n\n", r_b);
+    printf("%s\n", r_b);
 
     
     for (int i = 0; i < 3; i++) {
-        printf("%.1f ", r_c[i]);
+        printf("%.6f ", r_c[i]);
     }
     printf("\n");
 
